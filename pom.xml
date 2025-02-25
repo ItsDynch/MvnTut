@@ -9,13 +9,13 @@ http://maven.apache.org/maven-v4_0_0.xsd">
 <version>1.0</version>
 <dependencies>
 
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
 <dependency>
-<!-- https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api -->
-<dependency>
-    <groupId>jakarta.servlet</groupId>
-    <artifactId>jakarta.servlet-api</artifactId>
-    <version>6.0.0</version>
-    <scope>provided</scope>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-engine</artifactId>
+    <version>5.11.4</version>
+    <scope>test</scope>
 </dependency>
+
 <dependencies>
 </project>
